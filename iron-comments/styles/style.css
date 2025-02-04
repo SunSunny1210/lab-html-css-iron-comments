@@ -5,32 +5,38 @@ body {
     background-color: rgb(25, 33, 41);   
     color: white;
 }
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
 
 #form-container {
-    margin: 0 auto;
     padding: 20px;
-    height: 300px;
     width: 250px;
+    margin: 0 auto;
     border: 1px solid;
     border-color: rgb(67, 163, 230);
     box-sizing: border-box;
 
     textarea {
-        height: 90px;
+        height: 150px;
     }
     .textinput {
         border-color: rgb(67, 163, 230);
         border-radius: 2px;
         border-width: 1px;
-        width: auto;
+        width: 180px;
     }
     button {
-        height: 25px;
         background-color: rgb(67, 163, 230);
         color: white;
         border-radius: 10px;
         border-color: rgb(67, 163, 230);
+        border-style: hidden;
+        height: 30px;
+        width: 50px;
     }
     label {
         line-height: 25px;
